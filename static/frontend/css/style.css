@@ -1,0 +1,30 @@
+﻿body {
+    background: #111;
+    color: white;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#avatar.speaking {
+    border: 3px solid #0f0;
+    border-radius: 50%;
+    animation: pulse 0.5s infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        box-shadow: 0 0 10px #0f0;
+    }
+
+    to {
+        box-shadow: 0 0 20px #0f0;
+    }
+}
+
